@@ -1,0 +1,153 @@
+$bgh :#5bd0d0;
+$bg:#fff;
+$aColor:#FFC700;
+$Color:#707070;
+$imgColor:#9a9a9a;
+$ImgColor:#ebebeb;
+$borderColor:#c6c6c6;
+html{
+  font-size: 62.5%;
+}
+body{
+  width: 390px;
+  height: auto;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background:$bg;
+  h1{
+    font-size: 2.2rem;
+    color: $Color;
+    text-align: center;
+    padding-top: 40px;
+    // position: absolute;
+    // bottom: 0;
+  }
+}
+main{
+  width: 390px;
+  height: auto;
+}
+.content{
+  width: 100%;
+  height: 500px;
+  // background: $bgh;
+  position: relative;
+  form{
+    width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+    .content-table{
+      width: 100%;
+      tr{
+        height: 80px;
+        margin: 20px 0;
+        // gap: 20px;
+        .content-item{
+          width: 100px;
+          color: $Color;
+          text-align:center;
+          // margin-right: 40px;
+          font-size: 1.6rem;
+          // border: solid 1px tomato;
+          border-radius: 5px;
+        }
+        .content-body{
+          width: 20px;
+          font-size: 1.2rem;
+          .form-text{
+            color: $Color;
+            width: 200px;
+            height: 30px;
+            font-size: 1.4rem;
+            border: 1px solid $Color;
+            border-radius: 5px;
+          }
+          .form-date{
+            width: 110px;
+            height: 30px;
+            margin-right: 16px;
+            color: $Color;
+            // background: $bg;
+            border: 1px solid $Color;
+            border-radius: 5px;
+
+          }
+          .form-time{
+            width: 70px;
+            height: 30px;
+            color: $Color;
+            border: 1px solid $Color;
+            border-radius: 5px;
+          }
+          .form-textarea{
+            resize:auto;
+            max-width: 200px;
+            max-height: 30px;
+            min-width: 200px;
+            min-height: 30px;
+            width: 200px;
+            height: 30px;
+            border: $Color 1px solid;
+            border-radius: 5px;
+
+          }
+        }
+        // .content-value{
+          //   vertical-align: top;
+          // }
+        }
+        
+    }
+  }
+  .button{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    border:1px solid $Color;
+    border-radius: 5px;
+    // text-align: center;
+    a{
+      text-decoration: none;
+      margin: 0 auto;
+      width: 100%;
+      color: $Color;
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}
+figure{
+  width: 50px;
+  height: 50px;
+  margin: 250px auto 0;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.decide{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  figure{
+    width: 50px;
+    height: 50px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

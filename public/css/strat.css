@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+.logo {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.logo figure {
+  width: 300px;
+}
+.logo figure img {
+  width: 100%;
+  height: auto;
+}
+
+.loggin {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+}
+.loggin a {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-decoration: none;
+  border: 0.5px solid #9a9a9a;
+  border-radius: 5px;
+  color: #FFC700;
+  gap: 20px;
+  font-size: 2rem;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.loggin a:nth-child(2) {
+  color: #707070;
+}

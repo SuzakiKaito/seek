@@ -1,0 +1,188 @@
+$bgh :#5bd0d0;
+$bg:#fff;
+$aColor:#FFC700;
+$Color:#707070;
+$imgColor:#9a9a9a;
+$ImgColor:#ebebeb;
+$borderColor:#c6c6c6;
+
+html{
+  font-size: 62.5%;
+}
+body{
+  width: 390px;
+  height: auto;
+}
+header{
+  width: 390px;
+  height: 80px;
+  background: #fff;
+  h1{
+    font-style: 20px;
+    line-height: 80px;
+    color:$Color;
+    text-align: center;
+  }
+}
+main{
+  width: 390px;
+  height: 520px;
+  background: $bgh;
+  box-shadow:0 1px 5px #000 ;
+}
+.content{
+  width: 100%;
+  height: auto;
+  .search{
+    position: relative;
+    margin: 0 auto 0;
+    width: 300px;
+    height: 50px;
+    font-size: 2rem;
+    [type=search]{
+      margin-top: 50px ;
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid $borderColor;
+      color: $Color;
+      background-color: #fff;
+    }
+    figure{
+      position: absolute;
+      right: 20px;
+      top: 62.5px;
+      height: 25px;
+      img{
+        height: 100%;
+      }
+    }
+    ::placeholder{
+      font-size: 1.5rem;
+      color:#707070;
+      font-weight: bold;
+      text-align: center;
+      // margin: 0 auto;
+      opacity: .5;
+    }
+  }
+}
+.images{
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  overflow: scroll;
+  div{
+    width: 140px;
+    height: 160px;
+    display: flex;
+    flex-flow: column;
+    figure{
+      width: 140px;
+      height: 120px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      .smooth{
+        animation-name:smoothAnime;
+        animation-duration:.6s;
+        animation-fill-mode:forwards;
+          transform-origin:left;
+        opacity:0;
+      }
+      .delay2{
+        animation-delay: 0.1s;
+      }
+      .delay3{
+        animation-delay:0.2;
+      }
+      .delay4{
+        animation-delay:.3s;
+      }
+      .delay5{
+        animation-delay:.4s;
+      }
+      .delay6{
+        animation-delay: .5s;
+      }
+      .delay7{
+        animation-delay: .6s;
+      }
+      .delay8{
+        animation-delay: .7s;
+      }
+      .delay9{
+        animation-delay: .8s;
+      }
+    }
+    h2{
+      font-size: 12px;
+    }
+    .smooth{
+      animation-name:smoothAnime;
+      animation-duration:.6s;
+      animation-fill-mode:forwards;
+        transform-origin:left;
+      opacity:0;
+    }
+    .delay2{
+      animation-delay: 0.1s;
+    }
+    .delay3{
+      animation-delay:0.2;
+    }
+    .delay4{
+      animation-delay:.3s;
+    }
+    .delay5{
+      animation-delay:.4s;
+    }
+    .delay6{
+      animation-delay: .5s;
+    }
+    .delay7{
+      animation-delay: .6s;
+    }
+    .delay8{
+      animation-delay: .7s;
+    }
+    .delay9{
+      animation-delay: .8s;
+    }
+  }
+}
+@keyframes smoothAnime{
+  from {
+  transform:translate3d(0, 100%, 0) skewY(12deg);
+  opacity:0;
+  }
+
+  to {
+  transform:translate3d(0, 0, 0) skewY(0);
+  opacity:1;
+  }
+}
+footer{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  figure{
+    margin-top: 60px;
+    width: 60px;
+    img{
+      width: 100%;
+      // text-align: center;
+      margin: 0 auto;
+    }
+  }
+  h2{
+    text-align: center;
+    color: $Color;
+  }
+}

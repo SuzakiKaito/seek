@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新規登録画面</title>
+  <link rel="stylesheet" href="./public/css/ress.css">
+  <link rel="stylesheet" href="./public/css/newStart.css">
+</head>
+<body>
+  <div class="logo">
+    <figure>
+      <img src="./img/logo-ol.png" alt="ロゴ">
+    </figure>
+  </div>
+  <div class="table">
+    <form action="" method="">
+      <table class="contact-table">
+        <tr>
+          <th class="contact-item">名前</th>
+          <td class="contact-body">
+            <input type="text" required name="名前" class="form-text" placeholder="最大20文字"/>
+          </td>
+        </tr>
+        <tr>
+          <th class="contact-item">年齢</th>
+          <td class="contact-body">
+            <input type="text" name="年齢" class="form-text">
+          </td>
+        </tr>
+        <tr>
+          <th class="contact-item">性別</th>
+          <td class="contact-body">
+            <label class="contact-sex">
+              <input type="radio" name="性別" />
+              <span class="contact-sex-txt">男</span>
+            </label>
+            <label class="contact-sex">
+              <input type="radio" name="性別" />
+              <span class="contact-sex-txt">女</span>
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th class="contact-item">住所</th>
+          <td class="contact-body">
+            <input type="text" name="address" class="form-text" placeholder="都道府県・市"/>
+          </td>
+        </tr>
+        <tr>
+          <th class="contact-item">空き時間</th>
+          <td class="contact-body">
+            <input type="text" name="time" class="form-text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="contact-item">好きな <br> スポーツ</th>
+          <td class="contact-body">
+            <label class="form-selects">
+              <select name="種目" class="form-select">
+                <option>選択</option>
+                <option>バレーボール</option>
+                <option>バスケットボール</option>
+                <option>野球</option>
+                <option>サッカー</option>
+                <option>バドミントン</option>
+                <option>卓球</option>
+                <option>テニス</option>
+                <option>フットボール</option>
+                <option>ドッジボール</option>
+                <option>スキー</option>
+              </select>
+            </label>
+            </td>
+        </tr>
+        <tr>
+          <th class="contact-item">一言</th>
+          <td class="contact-body">
+            <textarea name="問い合わせ" class="form-textarea"></textarea>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div class="lens">
+      <figure>
+        <a href="index.html"><img src="./img/lens.png" alt=""></a>
+      </figure>
+    </div>
+  </div>
+</body>
+</html>

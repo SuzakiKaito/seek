@@ -1,0 +1,190 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 390px;
+  height: auto;
+}
+
+header {
+  width: 390px;
+  height: 80px;
+  background: #fff;
+}
+header h1 {
+  font-style: 20px;
+  line-height: 80px;
+  color: #707070;
+  text-align: center;
+}
+
+main {
+  width: 390px;
+  height: 520px;
+  background: #5bd0d0;
+  box-shadow: 0 1px 5px #000;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+}
+.content .search {
+  position: relative;
+  margin: 0 auto 0;
+  width: 300px;
+  height: 50px;
+  font-size: 2rem;
+}
+.content .search [type=search] {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #c6c6c6;
+  color: #707070;
+  background-color: #fff;
+}
+.content .search figure {
+  position: absolute;
+  right: 20px;
+  top: 62.5px;
+  height: 25px;
+}
+.content .search figure img {
+  height: 100%;
+}
+.content .search :-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #707070;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.5;
+}
+.content .search ::placeholder {
+  font-size: 1.5rem;
+  color: #707070;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.images {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  overflow: scroll;
+}
+.images div {
+  width: 140px;
+  height: 160px;
+  display: flex;
+  flex-flow: column;
+}
+.images div figure {
+  width: 140px;
+  height: 120px;
+}
+.images div figure img {
+  width: 100%;
+  height: 100%;
+}
+.images div figure .smooth {
+  animation-name: smoothAnime;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  transform-origin: left;
+  opacity: 0;
+}
+.images div figure .delay2 {
+  animation-delay: 0.1s;
+}
+.images div figure .delay3 {
+  animation-delay: 0.2;
+}
+.images div figure .delay4 {
+  animation-delay: 0.3s;
+}
+.images div figure .delay5 {
+  animation-delay: 0.4s;
+}
+.images div figure .delay6 {
+  animation-delay: 0.5s;
+}
+.images div figure .delay7 {
+  animation-delay: 0.6s;
+}
+.images div figure .delay8 {
+  animation-delay: 0.7s;
+}
+.images div figure .delay9 {
+  animation-delay: 0.8s;
+}
+.images div h2 {
+  font-size: 12px;
+}
+.images div .smooth {
+  animation-name: smoothAnime;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  transform-origin: left;
+  opacity: 0;
+}
+.images div .delay2 {
+  animation-delay: 0.1s;
+}
+.images div .delay3 {
+  animation-delay: 0.2;
+}
+.images div .delay4 {
+  animation-delay: 0.3s;
+}
+.images div .delay5 {
+  animation-delay: 0.4s;
+}
+.images div .delay6 {
+  animation-delay: 0.5s;
+}
+.images div .delay7 {
+  animation-delay: 0.6s;
+}
+.images div .delay8 {
+  animation-delay: 0.7s;
+}
+.images div .delay9 {
+  animation-delay: 0.8s;
+}
+
+@keyframes smoothAnime {
+  from {
+    transform: translate3d(0, 100%, 0) skewY(12deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0) skewY(0);
+    opacity: 1;
+  }
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+footer figure {
+  margin-top: 60px;
+  width: 60px;
+}
+footer figure img {
+  width: 100%;
+  margin: 0 auto;
+}
+footer h2 {
+  text-align: center;
+  color: #707070;
+}

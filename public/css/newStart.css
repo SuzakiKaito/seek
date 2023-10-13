@@ -1,0 +1,125 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 390px;
+  height: 1100px;
+}
+
+.logo {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.logo figure {
+  width: 300px;
+}
+.logo figure img {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact-item {
+  width: 80px;
+  text-align: left;
+  margin-right: 40px;
+  font-size: 1.2rem;
+}
+
+tr {
+  height: 50px;
+  margin: 20px 0;
+}
+
+.content-table {
+  width: 100%;
+}
+
+.form-text {
+  width: 200px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #707070;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  max-width: 400px;
+}
+
+.contact-sex + .contact-sex {
+  margin-left: 10px;
+}
+
+.contact-sex-txt {
+  margin-left: 5px;
+}
+
+.form-selects {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.form-selects::after {
+  position: absolute;
+  right: 15px;
+  width: 10px;
+  height: 7px;
+  background-color: #535353;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: "";
+  pointer-events: none;
+}
+
+.form-selects select {
+  -webkit-appearance: none;
+          appearance: none;
+  min-width: 200px;
+  height: 2.8em;
+  padding: 0.4em calc(0.8em + 30px) 0.4em 0.8em;
+  border: none;
+  border-bottom: 1px solid #707070;
+  background-color: #fff;
+  color: #333333;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.form-selects select:focus {
+  outline: none;
+}
+
+.form-textarea {
+  width: 200px;
+}
+
+.lens {
+  margin: 50px auto 0;
+  width: 80px;
+  height: 80px;
+  border: #535353 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lens figure {
+  width: 50px;
+  height: 50px;
+}
+.lens figure img {
+  width: 100%;
+  height: 100%;
+}
